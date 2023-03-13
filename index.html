@@ -23,7 +23,18 @@
   <script>
     var mediaQuery = window.matchMedia("(max-width: 600px)");
     if (mediaQuery.matches) {
-      screen.orientation.lock("portrait");
+      window.addEventListener(
+        "orientationchange",
+        function () {
+          // Lock to portrait mode
+          if (screen.orientation.angle !== 0) {
+            screen.orientation.lock("portrait");
+          }
+
+          event.preventDefault();
+        },
+        false
+      );
     }
   </script>
 </html>

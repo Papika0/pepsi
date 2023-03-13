@@ -60,7 +60,7 @@ body {
     margin-left: 1rem;
   }
 }
-/* @media only screen and (min-width: 600px) and (orientation: landscape) {
+@media only screen and (min-width: 600px) and (orientation: landscape) {
   body {
     background-image: url("assets/768x1024.jpg");
   }
@@ -74,7 +74,7 @@ body {
     height: 55px;
     width: 55px;
   }
-} */
+}
 
 /* Tablets (e.g. iPad)  */
 @media only screen and (min-width: 600px) and (max-width: 1023px) and (orientation: portrait) {
