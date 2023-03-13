@@ -20,4 +20,10 @@
       </div>
     </div>
   </body>
+  <script>
+    var mediaQuery = window.matchMedia("(max-width: 600px)");
+    if (mediaQuery.matches) {
+      screen.orientation.lock("portrait");
+    }
+  </script>
 </html>

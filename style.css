@@ -60,18 +60,21 @@ body {
     margin-left: 1rem;
   }
 }
-@media only screen and (max-width: 600px) and (orientation: landscape) {
+/* @media only screen and (min-width: 600px) and (orientation: landscape) {
   body {
-    transform: rotate(90deg);
-    transform-origin: top left;
-    width: 100vh;
-    height: 100vw;
-    overflow-x: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
+    background-image: url("assets/768x1024.jpg");
   }
-}
+  .social-logos {
+    padding-top: calc((100vh / 100) * 34);
+    padding-right: 85%;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .social-logos img {
+    height: 55px;
+    width: 55px;
+  }
+} */
 
 /* Tablets (e.g. iPad)  */
 @media only screen and (min-width: 600px) and (max-width: 1023px) and (orientation: portrait) {
