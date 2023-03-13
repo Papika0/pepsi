@@ -142,7 +142,7 @@ body {
     background-image: url("assets/1440x1024.jpg");
   }
   .social-logos {
-    padding-top: calc((100vh / 100) * 41);
+    padding-top: calc((100vh / 100) * 38);
     padding-right: 70%;
     flex-direction: column;
     gap: 5rem;
