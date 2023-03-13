@@ -39,8 +39,8 @@ body {
     padding-top: calc((100vh / 100) * 10);
   }
   .social-logos img {
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: 50px;
   }
 }
 
@@ -50,15 +50,15 @@ body {
     padding-top: calc((100vh / 100) * 15);
   }
   .social-logos img {
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: 50px;
   }
 }
 
 /* Tablets (e.g. iPad)  */
 @media only screen and (min-width: 600px) and (max-width: 1023px) and (orientation: portrait) {
   body {
-    background-image: url("assets/768x1024\ \(1\).jpg");
+    background-image: url("assets/768x1024.jpg");
   }
   .social-logos {
     padding-top: calc((100vh / 100) * 9);
@@ -76,7 +76,7 @@ body {
     background-image: url("assets/1440x1024.jpg");
   }
   .social-logos {
-    padding-top: calc((100vh / 100) * 40);
+    padding-top: calc((100vh / 100) * 41);
     padding-right: 70%;
     flex-direction: column;
     gap: 4rem;
@@ -90,7 +90,7 @@ body {
 /* iPad Pro 12.9" with portrait orientation */
 @media only screen and (min-width: 1024px) and (orientation: portrait) {
   body {
-    background-image: url("assets/768x1024\ \(1\).jpg");
+    background-image: url("assets/768x1024.jpg");
   }
   .social-logos {
     padding-top: calc((100vh / 100) * 9);
@@ -125,9 +125,8 @@ body {
     background-image: url("assets/1440x1024.jpg");
   }
   .social-logos {
-    padding-top: calc((100vh / 100) * 38);
     padding-right: 70%;
-    flex-direction: column;
+    flex-direction: row;
     gap: 5rem;
   }
   .social-logos img {
@@ -142,9 +141,8 @@ body {
     background-image: url("assets/1440x1024.jpg");
   }
   .social-logos {
-    padding-top: calc((100vh / 100) * 38);
     padding-right: 70%;
-    flex-direction: column;
+    flex-direction: row;
     gap: 5rem;
   }
   .social-logos img {
@@ -159,26 +157,8 @@ body {
     background-image: url("assets/1920x1080-2.jpg");
   }
   .social-logos {
-    padding-top: calc((100vh / 100) * 38);
     padding-right: 70%;
-    flex-direction: column;
-    gap: 5rem;
-  }
-  .social-logos img {
-    height: 80px;
-    width: 80px;
-  }
-}
-
-/* Extra-large desktops - 1920px and above */
-@media only screen and (min-width: 1920px) {
-  body {
-    background-image: url("assets/1920x1080-2.jpg");
-  }
-  .social-logos {
-    padding-top: calc((100vh / 100) * 39);
-    padding-right: 70%;
-    flex-direction: column;
+    flex-direction: row;
     gap: 5rem;
   }
   .social-logos img {
