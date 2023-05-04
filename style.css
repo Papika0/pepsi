@@ -34,6 +34,22 @@ body {
   width: 40px;
 }
 
+.email {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0 auto 2rem;
+  font-size: 1.5rem;
+  color: white;
+  align-items: center;
+  font-weight: bold;
+}
+
 @media only screen and (min-height: 700px) and (max-height: 760px) {
   .social-logos {
     padding-top: calc((100vh / 100) * 10);
@@ -59,6 +75,10 @@ body {
   .insta {
     margin-left: 1rem;
   }
+
+  .email {
+    margin: 0 auto 1.2rem;
+  }
 }
 @media only screen and (min-width: 600px) and (orientation: landscape) {
   body {
@@ -73,6 +93,10 @@ body {
   .social-logos img {
     height: 55px;
     width: 55px;
+  }
+  .email {
+    margin: 0 1rem 1rem;
+    right: auto;
   }
 }
 
@@ -106,6 +130,9 @@ body {
     height: 50px;
     width: 50px;
   }
+  .email {
+    margin: 0 auto 1rem;
+  }
 }
 
 /* iPad Pro 12.9" with portrait orientation */
@@ -120,6 +147,9 @@ body {
   .social-logos img {
     height: 65px;
     width: 65px;
+  }
+  .email {
+    margin: 0 auto 2rem;
   }
 }
 
@@ -154,6 +184,12 @@ body {
     height: 65px;
     width: 65px;
   }
+  .email {
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    right: auto;
+  }
 }
 
 /* Laptops */
@@ -170,6 +206,12 @@ body {
     height: 65px;
     width: 65px;
   }
+  .email {
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    right: auto;
+  }
 }
 
 /* Desktops */
@@ -185,5 +227,11 @@ body {
   .social-logos img {
     height: 80px;
     width: 80px;
+  }
+  .email {
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    right: auto;
   }
 }

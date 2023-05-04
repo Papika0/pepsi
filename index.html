@@ -18,6 +18,10 @@
           ><img src="./assets/instagram.svg" alt="Instagram logo" class="insta"
         /></a>
       </div>
+      <div class="email" onclick="sendEmail()">
+        <img src="./assets/email-icon.svg" alt="Email icon" class="logo" />
+        <p>info@pepsi.ge</p>
+      </div>
     </div>
   </body>
   <script>
@@ -36,5 +40,8 @@
         false
       );
     }
+    function sendEmail() {
+    window.location.href = "mailto:info@pepsi.ge";
+  }
   </script>
 </html>
