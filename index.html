@@ -22,6 +22,14 @@
         <img src="./assets/email-icon.svg" alt="Email icon" class="logo" />
         <p>info@pepsi.ge</p>
       </div>
+       <div class="phone" onclick="callFirstNumber()">
+        <img src="./assets/phone-icon.svg" alt="phone icon" class="logo" />
+        <p>(+995 32) 250 60 20</p>
+      </div>
+      <div class="phone_2" onclick="callSecondNumber()">
+        <img src="./assets/phone-icon.svg" alt="phone icon" class="logo" />
+        <p>(+995 32) 250 60 21</p>
+      </div>
     </div>
   </body>
   <script>
@@ -43,5 +51,12 @@
     function sendEmail() {
     window.location.href = "mailto:info@pepsi.ge";
   }
+  function callFirstNumber() {
+    window.location.href = "tel:+995322506020";
+  }
+  function callSecondNumber() {
+    window.location.href = "tel:+995322506021";
+  }
+  
   </script>
 </html>
